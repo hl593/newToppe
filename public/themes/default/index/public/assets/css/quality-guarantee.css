@@ -1,0 +1,155 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*html,body{
+    overflow: hidden;
+}*/
+@media screen and (min-width: 1200px) {
+    #dowebok, .section {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #dowebok .section {
+        width: 100%;
+        height: 10.8rem;
+        position: relative;
+    }
+
+    #dowebok .section.footer-box {
+        height: 3.69rem;
+    }
+}
+
+.header-background{
+    width: 100%;
+    height: 4.55rem;
+    line-height: 4.55rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.store-section{
+    width: 100%;
+    height: 8.79rem;
+    display: flex;
+    /*justify-content: center;*/
+    background-color: black;
+    flex-direction:column;
+}
+
+.store-section-text{
+    width: 100%;
+    height: 0.93rem;
+    line-height: 0.93rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.store-section-text-p{
+    font-size:0.22rem;
+    font-family:Adobe Heiti Std R;
+    font-weight:normal;
+    color:rgba(153,153,153,1);
+    line-height:0.28rem;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.store-section-top{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.02rem;
+}
+
+.Anti-counterfeiting-code{
+    width: 5.93rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background:rgba(51,51,51,1);
+    border-radius:0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.Anti-counterfeiting-code-p{
+    font-size: 0.28rem;
+    font-family:SourceHanSansCN-Regular;
+    font-weight:400;
+    color:#CCCCCC;
+    margin-left: 0.46rem;
+}
+
+.Anti-counterfeiting-code-input{
+    font-size: 0.28rem;
+    font-family:SourceHanSansCN-Regular;
+    font-weight:400;
+    color:#666666;
+    margin-left: 0.1rem;
+    background-color:rgba(51,51,51,1);
+    border: 0;
+    outline: none;
+}
+
+.store-section-tep{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 2.02rem;
+}
+
+.store-section-button{
+    width:100%;
+    height:0.8em;
+    background:#000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inquire{
+    width: 5.93rem;
+    height: 0.8rem;
+    font-size:0.34rem;
+    font-family:SourceHanSansCN-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    background-color:rgba(227,29,26,1) ;
+    border-radius:0.1rem;
+    border: none;
+}
+
+.section-p{
+    width:100%;
+    height:1.28rem;
+    background:#000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inquires{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.22rem;
+    font-family:Adobe Heiti Std R;
+    font-weight:normal;
+    color:rgba(153,153,153,1);
+    line-height:0.28rem;
+    text-align: center;
+}
+
